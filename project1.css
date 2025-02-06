@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    background: rgba(255, 255, 255, 0.7); 
+    z-index: 10;
+}
+
+nav .container {
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 22px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    padding: 0;
+    display: flex;
+    margin-right: 200px;
+    margin-top: 45px;
+}
+
+nav li {
+    text-align: center;
+    display: list-item;
+    padding: 10px;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px; 
+    background-color: rgba(0, 0, 0, 0); 
+}
+.image1{
+    width: 100px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.headerclass1{
+   
+    border: 5px solid white;
+    margin-top: 130px;
+    width: 55%;
+    height: 380%;
+    padding: 35px;
+}
+.headerclass1-text{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-seri;
+}
+.interactive {
+    margin-top: 150px;
+    margin-left: 120px;
+    width: 65%;
+    height: 72vh; 
+    background-image: url('image-interactive.jpg');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+    
+.sectionclass1
+{
+    display: flex;
+    }
+.description{
+    height:227px;
+    width: 420px;
+    padding: 65px;
+    background-position: right;
+    background-color: white;
+    border: 1px solid white;
+    margin-left: 658px;
+    margin-top: -322px;
+}
+.headerclass{
+    text-align: center;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.paraclass{
+    padding-top: 10px;
+    text-align: center;
+    color: #8c8c8c;
+    word-spacing: 4px;
+    font-size: 15px;
+    font-family: 'Alata', sans-serif;
+
+}
+.card-container{
+    position: relative;
+    border: 2px;
+    margin-top: 0px;
+    width:100%;
+    height: 100%;
+}
+.card-container img
+{
+    border-radius: 10px;
+}
+.main-container{
+    width: 79%;
+    height:59%;
+    display: grid;
+    justify-content: space-between;
+    margin-top: 1px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    row-gap: 0px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.imagecard{
+    height:1200px;
+    width: 1000px;
+    padding: 0px;
+    
+margin: 0;
+    gap:1px;
+}
+.btn{
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding: 8px 30px;
+    transition: 0.3s ease-in-out;
+    float: right;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: -38px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.imagename
+{
+    position: absolute;
+   top: 60%;
+   color:#fff;
+   padding: 10px;
+   width: 10px;
+   margin-top: -41px;
+
+}
+.imagenamebottom
+{
+    position: absolute;
+   top: 60%;
+   color:#fff;
+   padding: 10px;
+   margin-top: -80px;
+   width: 10px;
+
+}
+.imagenamebottom h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 100;
+    
+}
+.imagename h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 100;
+    
+}
+footer{
+    height: 250px;
+    width:130%;
+    background-color: black;
+    margin-top: 15%;
+}
+
+.footer1{
+    margin: 0px;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 68px;
+    margin-top: 44px;
+   
+}
+
+footer li {
+    text-align: center;
+    display: list-item;
+    padding: 10px;
+}
+.icons{
+    margin-top: -60px;
+    margin-left: 70%;
+}
+
+
+    .icons a {
+        margin: 0 10px;
+        font-size: 24px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .copyrights{
+        color:#8c8c8c;
+        font-size: 16px;
+        margin-left: -82px;
+        margin-top: 30px;
+    }
+    .main-container img:hover {
+        filter: blur(3px);
+    }
+    
+    .creationshead
+    {
+        font-weight: 400;
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-left: 90px;
+        margin-top: 28px;
+    }
+    .logocls{
+        margin-top: 40px;
+        margin-left: 80px;
+    }
+    ul li a {
+        color: white;  
+        text-decoration: none; 
+    }
+    @media  (min-width:375px)
+    {
+    .main-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    }
+    @media (min-width:1200px)
+    {
+        .main-container{
+ grid-template-columns:repeat(4,1fr);
+    }
+}
+    
+
+        
+    
+
+
+
+
